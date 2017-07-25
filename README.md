@@ -6,6 +6,7 @@ Functions
 3. At the backend, I made a 'Product' object that includes product_id and product_name, same as the columns of table.
    I made a batch class, which has three main functions, including reader, processor and writer.
    Those methods are used for reading data from database, processing the data on purpose and writing data to the table.
+   And I also made a job listener to monitor if the job is done.
 4. At the front end, I created a simple AngularJS file and a html file for mocking the user's interface.
 
 Thank you!
